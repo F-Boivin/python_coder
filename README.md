@@ -16,6 +16,7 @@ Cada carpeta corresponde a un trabajo práctico (TP) entregado durante la cursad
 | 9 — U3 | Django: panel admin y registro de modelos (autograder) | [TP_Modulo_9a](./TP_Modulo_9a) | 99% ⭐ |
 | 9 — U4-6 | Django: ListView + DetailView (CBV, autograder) | [TP_Modulo_9b](./TP_Modulo_9b) | 100% 🎯 |
 | 9 — U7 | Django: CreateView + UpdateView (CBV, autograder) | [TP_Modulo_9c](./TP_Modulo_9c) | 100% 🎯 |
+| 9 — U8 | Django: ModelAdmin avanzado (Google Doc) | [TP_Modulo_9d](./TP_Modulo_9d) | — |
 
 > Los TPs se entregan formalmente como Google Docs en la plataforma del curso. Este repositorio funciona como respaldo de código ejecutable y portfolio.
 
