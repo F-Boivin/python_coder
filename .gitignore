@@ -15,6 +15,12 @@ env/
 **/reporte.json
 **/reporte.csv
 
+# Screenshots de evidencia (TP 8a y siguientes) - viven solo localmente y en el Google Doc
+**/evidencia/*.png
+**/evidencia/*.jpg
+**/evidencia/*.jpeg
+!**/evidencia/.gitkeep
+
 # Editor / SO
 .vscode/
 .idea/
