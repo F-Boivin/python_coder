@@ -18,9 +18,9 @@ Implementar un programa Python que reciba por entrada estándar una secuencia de
 
 **Salida:** `VALID` o `INVALID`.
 
-## Contexto: por qué se reentrega
+## Contexto
 
-Este TP ya se había entregado anteriormente con una nota de **77% (Bueno)**. El corrector señaló tres mejoras puntuales que se incorporaron en esta reentrega:
+Este TP fue entregado en su momento al autograder de Coder y obtuvo **77% (Bueno)** — nota que queda como definitiva porque la plataforma del curso ya no permite reenvíos sobre este ejercicio. El código que vive en este repositorio es una **reescritura posterior** que incorpora las tres observaciones del corrector, como ejercicio de portfolio y para fijar los aprendizajes:
 
 | # | Observación del corrector | Cómo se corrige en esta versión |
 |---|-----------------------------|---------------------------------|
@@ -169,8 +169,8 @@ Los siguientes 8 casos se probaron manualmente durante el desarrollo y todos ret
 ## Entrega
 
 - **Plataforma:** editor online integrado de Coder (autograder), no Google Doc.
-- **Reentrega:** SÍ (la primera entrega obtuvo 77%, se reenvía para apuntar a 100% incorporando las 3 correcciones).
-- **Nota recibida tras reentrega:** _pendiente_
+- **Nota final:** **77% — Bueno** (la plataforma no permite reentrega de este ejercicio).
+- **Estado del código en este repo:** versión mejorada post-feedback, conservada como referencia de portfolio. No fue evaluada por el corrector.
 
 ## Notas adicionales
 
