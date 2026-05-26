@@ -5,9 +5,23 @@ __pycache__/
 *.pyd
 .Python
 *.egg-info/
+
+# Python virtual environments (todas las variantes comunes)
 .venv/
 venv/
 env/
+ENV/
+.env
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+local_settings.py
+media/
+staticfiles/
+**/migrations/0*.py
+!**/migrations/__init__.py
 
 # Archivos generados por los scripts de los TPs (salida de ejecución)
 **/salida.txt
