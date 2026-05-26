@@ -1,0 +1,5 @@
+Primera línea del archivo de datos.
+Segunda línea con información de ejemplo.
+Tercera línea para probar la lectura.
+Cuarta línea con caracteres especiales: áéíóú ñ.
+Quinta y última línea del archivo.
