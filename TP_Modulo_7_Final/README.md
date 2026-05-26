@@ -154,5 +154,28 @@ La demo `demo_lectura_inversa()` en `main.py` muestra el ciclo completo.
 
 ## Entrega
 
-- **Google Doc:** _pendiente de agregar el link cuando se publique la entrega_
-- **Nota recibida:** _pendiente_
+- **Google Doc:** https://docs.google.com/document/d/13ysNKIxfpUnIPghqOxtVdlWJEM7fpTYJkj5gVbvNhK4/edit?usp=sharing
+- **Nota recibida:** **94% — Aprobado**
+
+### Comentarios del corrector
+
+La entrega es sólida y muy cercana a una solución completa: presenta una estructura clara del paquete, persistencia correcta con `with`, control de ejecución adecuado y una descripción detallada del flujo de consola. El documento además incluye el código fuente y una salida esperada bien explicada, por lo que cumple ampliamente con la consigna.
+
+**Puntos fuertes**
+
+- Estructura de paquete bien organizada con módulos separados por responsabilidad.
+- Uso correcto de `if __name__ == "__main__":` y funciones bien documentadas.
+- Persistencia segura en JSON/CSV con `with`, `json.dump`, `csv.DictWriter` y manejo básico de errores.
+- Incluye evidencia textual de la ejecución y resultados esperados con métricas concretas.
+
+**Correcciones**
+
+- Agregar validaciones más finas para datos inválidos o incompletos del CSV.
+- Incluir capturas reales de ejecución si la consigna del curso lo requiere.
+- Asegurar que el README completo esté visible o incrustado en el documento si debe evaluarse como parte de la evidencia.
+
+**Sugerencias**
+
+- Revisar el flujo con datos de prueba que contengan errores para fortalecer el manejo de excepciones.
+- Ejecutar el proyecto y documentar una captura real de consola junto con los archivos generados.
+- Mantener la separación de responsabilidades, y considerar sumar tests unitarios básicos para lectura, procesamiento y escritura.
