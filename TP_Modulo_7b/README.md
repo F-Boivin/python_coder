@@ -62,5 +62,5 @@ Archivo 'salida.txt' creado correctamente.
 
 ## Entrega
 
-- **Google Doc:** _pendiente de agregar el link cuando se publique la entrega_
+- **Google Doc:** https://docs.google.com/document/d/1yZusMRv6AE2wehyIVLz0d3ecQjavNJwrHzZcnLzjJnM/edit?usp=sharing
 - **Nota recibida:** _pendiente_
