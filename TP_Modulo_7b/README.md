@@ -63,4 +63,25 @@ Archivo 'salida.txt' creado correctamente.
 ## Entrega
 
 - **Google Doc:** https://docs.google.com/document/d/1yZusMRv6AE2wehyIVLz0d3ecQjavNJwrHzZcnLzjJnM/edit?usp=sharing
-- **Nota recibida:** _pendiente_
+- **Nota recibida:** 
+Aprobado
+90%
+Ticher
+La entrega es sólida y bien enfocada en lectura y escritura de archivos de texto con buenas prácticas modernas. Destaca por el uso correcto de `with`, `utf-8`, manejo específico de excepciones y construcción portable de rutas con `pathlib`.
+Puntos fuertes
+
+Uso correcto y consistente de `with` para lectura y escritura.
+Empleo adecuado de `utf-8` y explicación de su utilidad con caracteres especiales.
+Manejo de errores bien estructurado con excepciones específicas.
+Uso de `pathlib` para construir rutas de forma portable.
+Incluye salidas esperadas y explica el comportamiento del script.
+Correcciones
+
+Incluir un ejemplo explícito de `read()` y `readline()` para cubrir toda la gama de métodos de la rúbrica.
+Agregar una verificación más ejecutable del cierre/gestión del archivo, no solo la explicación teórica.
+Profundizar un poco más en casos concretos de error y en rutas parametrizadas o externas.
+Sugerencias
+
+Ampliar el documento con un cuadro comparativo de `read()`, `readline()`, `readlines()`, `write()` y `writelines()`.
+Añadir un pequeño bloque de pruebas o pseudoejecución que demuestre el resultado de cada método.
+Practicar variantes de manejo de errores con archivos inexistentes, codificaciones distintas y rutas de entrada del usuario.
