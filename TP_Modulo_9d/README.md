@@ -301,7 +301,29 @@ TP_Modulo_9d/
 ## Entrega
 
 - **Plataforma:** Google Doc.
-- **Nota recibida:** _pendiente_
+- **Google Doc:** https://docs.google.com/document/d/1pljibp82YJn_NQBLf3_5QYGV3FxLGHjo5HSSq3T4WgI/edit?usp=sharing
+- **Nota recibida:** **99% — Aprobado** ⭐
+
+### Comentarios del corrector
+
+Este es un trabajo excepcional. El estudiante no solo ha cumplido con todos los requisitos técnicos de la consigna (configuración de columnas, filtros y búsqueda), sino que ha estructurado un documento profesional con marco teórico, implementación práctica avanzada y un análisis detallado de la usabilidad. La inclusión de configuraciones extra como `list_editable` demuestra una gran proactividad y dominio de la materia.
+
+**Puntos fuertes**
+
+- Explicación teórica exhaustiva que supera los requisitos mínimos.
+- Inclusión de configuraciones adicionales que mejoran la experiencia de usuario (UX) del administrador, como la edición inline y campos de solo lectura.
+- Uso de mockups visuales en texto para representar la interfaz final, lo que demuestra claridad en el diseño de la herramienta.
+- Justificación técnica sólida para cada elección en el modelo y el admin.
+
+**Correcciones**
+
+- Mencionar explícitamente el impacto en el rendimiento (consultas SQL) al agregar filtros y columnas relacionadas en modelos con miles de registros.
+
+**Sugerencias**
+
+- Explorar el uso de `list_select_related` para optimizar el rendimiento del admin cuando se muestran campos de modelos relacionados (ForeignKey).
+- Investigar la creación de acciones personalizadas (admin actions) para realizar procesamientos por lotes en los registros.
+- Implementar validaciones personalizadas en el formulario del admin sobreescribiendo el método `clean` del formulario o del modelo.
 
 ## Notas adicionales
 
