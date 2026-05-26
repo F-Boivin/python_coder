@@ -73,5 +73,26 @@ Verificación: el contenido cargado coincide con el original.
 
 ## Entrega
 
-- **Google Doc:** _pendiente de agregar el link cuando se publique la entrega_
-- **Nota recibida:** _pendiente_
+- **Google Doc:** https://docs.google.com/document/d/1z5OoDNrPmwSUIcVogt0JXM0NOrbX9HtG35Smx5wUX7M/edit?usp=sharing
+- **Nota recibida:** **81% — Aprobado**
+
+### Comentarios del corrector
+
+El trabajo demuestra una excelente capacidad técnica y un dominio sólido de la biblioteca `json` en Python. La implementación del código y el manejo de archivos son impecables, incluyendo soluciones para tipos no serializables y un robusto sistema de excepciones. Sin embargo, el componente teórico de justificación y comparación con otras alternativas es prácticamente inexistente, lo que afecta la calificación final.
+
+**Puntos fuertes**
+
+- Implementación técnica de alta calidad con modularización clara y uso de docstrings.
+- Manejo avanzado de tipos no serializables utilizando el parámetro `default` de `json.dump`.
+- Gestión de archivos siguiendo todas las mejores prácticas (`with`, `encoding`, `pathlib`).
+- Control de errores exhaustivo que cubre múltiples escenarios de fallo.
+
+**Correcciones**
+
+- Incluir una tabla comparativa o una breve sección de texto analizando cuándo es preferible JSON sobre Pickle o YAML.
+- Asegurarse de cumplir con la parte de la rúbrica dedicada a la justificación teórica, ya que es fundamental para el análisis de datos estructurados.
+
+**Sugerencias**
+
+- Redactar una sección teórica donde se comparen las ventajas de JSON (interoperabilidad, legibilidad) frente a otros formatos como XML o CSV.
+- Investigar la contraparte del manejo de `datetime`: cómo usar el parámetro `object_hook` en `json.load` para reconstruir automáticamente objetos `datetime` al leer el archivo.
