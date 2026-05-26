@@ -207,7 +207,26 @@ TP_Modulo_9a/
 
 - **Plataforma:** editor online de Coder con autograder (IA).
 - **Archivo a entregar:** contenido de `admin.py` (el `models.py` ya viene cargado por la consigna).
-- **Nota recibida:** _pendiente_
+- **Nota recibida:** **99% — Excelente** ⭐
+
+### Comentarios del corrector
+
+El ejercicio ha sido resuelto de manera excelente. El modelo está definido correctamente acorde a los requerimientos y el registro en el panel de administración se ha implementado tal como se solicitó.
+
+**Puntos fuertes**
+
+- Implementación precisa del registro del modelo en el archivo `admin.py`.
+- Definición técnica y estructural correcta de los campos del modelo.
+- Inclusión del método `__str__` para una mejor experiencia del usuario en el panel de administración.
+
+**Correcciones**
+
+- Aunque el código funciona perfectamente, se recomienda eliminar los comentarios de instrucciones (los TODO) una vez que la tarea ha sido completada para mantener una base de código más limpia y profesional.
+
+**Próximos pasos sugeridos**
+
+- Explorar cómo personalizar la visualización del modelo en el panel de administración usando `list_display` o `list_filter` en una clase `ModelAdmin` correspondiente.
+- Investigar la validación de formularios en Django para añadir más restricciones a los campos, como asegurar que el precio no sea un número negativo.
 
 ## Notas adicionales
 
