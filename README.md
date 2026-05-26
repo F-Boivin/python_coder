@@ -8,7 +8,8 @@ Cada carpeta corresponde a un trabajo práctico (TP) entregado durante la cursad
 
 | Módulo | Tema | Carpeta | Nota |
 |--------|------|---------|------|
-| 7b     | Manejo de archivos y persistencia de datos | [TP_Modulo_7b](./TP_Modulo_7b) | — |
+| 7b     | Manejo de archivos y persistencia de datos | [TP_Modulo_7b](./TP_Modulo_7b) | 90% |
+| 7c     | JSON: datos estructurados | [TP_Modulo_7c](./TP_Modulo_7c) | — |
 
 > Los TPs se entregan formalmente como Google Docs en la plataforma del curso. Este repositorio funciona como respaldo de código ejecutable y portfolio.
 

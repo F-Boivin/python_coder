@@ -11,6 +11,7 @@ env/
 
 # Archivos generados por los scripts de los TPs (salida de ejecución)
 **/salida.txt
+**/config_usuario.json
 
 # Editor / SO
 .vscode/
