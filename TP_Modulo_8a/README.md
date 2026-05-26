@@ -228,7 +228,27 @@ TP_Modulo_8a/
 
 ## Entrega
 
-- **Google Doc:** _pendiente de agregar el link cuando se publique la entrega_
-- **Nota recibida:** _pendiente_
+- **Google Doc:** https://docs.google.com/document/d/1x3hOLsu5V_27ozqr7u4BABPBYm-nS8AcjdLjkEZ6e-g/edit?usp=sharing
+- **Nota recibida:** **99% — Aprobado** ⭐
 
-> Para la entrega: copiar el contenido de este README en un Google Doc, embeber los screenshots de `evidencia/` en las secciones correspondientes (cada sección "Evidencia X" indica qué imagen va), y compartir el doc con acceso público.
+### Comentarios del corrector
+
+Un trabajo excepcional que demuestra no solo que el estudiante sabe ejecutar los comandos, sino que entiende profundamente la arquitectura de Git. La integración del ejercicio con el repositorio real del curso es un acierto metodológico que demuestra profesionalismo y comprensión del control de versiones como herramienta diaria.
+
+**Puntos fuertes**
+
+- Explicación teórica profunda y precisa de los estados de Git.
+- Uso de un repositorio real (`python_coder`) como evidencia en lugar de un ejemplo ficticio.
+- Presentación impecable con tablas comparativas y capturas de pantalla claras.
+- Excelente reflexión sobre el flujo de trabajo distribuido y el papel del staging area.
+
+**Correcciones**
+
+- Asegurarse de mencionar si se utiliza la terminal de VS Code para que el evaluador sepa que se integran estas herramientas en el editor.
+- En los mensajes de commit, aunque son muy buenos, se podría probar el estándar de **Conventional Commits** (`feat:`, `docs:`, `fix:`) para un historial aún más profesional.
+
+**Sugerencias**
+
+- Explorar el uso de ramas (`git branch`) para trabajar en nuevas funcionalidades sin afectar la rama principal.
+- Configurar una llave SSH para facilitar la comunicación segura con GitHub sin pedir credenciales constantemente.
+- Investigar sobre `.gitignore` avanzado para excluir carpetas de entornos virtuales (`.venv`) de forma efectiva.
