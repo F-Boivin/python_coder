@@ -15,6 +15,7 @@ Cada carpeta corresponde a un trabajo práctico (TP) entregado durante la cursad
 | 8 Final | Validador de flujo Git + Django (autograder de Coder) | [TP_Modulo_8_Final](./TP_Modulo_8_Final) | 77% |
 | 9 — U3 | Django: panel admin y registro de modelos (autograder) | [TP_Modulo_9a](./TP_Modulo_9a) | 99% ⭐ |
 | 9 — U4-6 | Django: ListView + DetailView (CBV, autograder) | [TP_Modulo_9b](./TP_Modulo_9b) | 100% 🎯 |
+| 9 — U7 | Django: CreateView + UpdateView (CBV, autograder) | [TP_Modulo_9c](./TP_Modulo_9c) | 100% 🎯 |
 
 > Los TPs se entregan formalmente como Google Docs en la plataforma del curso. Este repositorio funciona como respaldo de código ejecutable y portfolio.
 
