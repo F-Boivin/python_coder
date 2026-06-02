@@ -18,4 +18,6 @@ urlpatterns = [
     path("posts/<int:pk>/", views.PostDetailView.as_view(), name="post-detail"),
     path("posts/<int:pk>/editar/", views.PostUpdateView.as_view(), name="post-update"),
     path("posts/<int:pk>/eliminar/", views.PostDeleteView.as_view(), name="post-delete"),
+    # Feature agregada en feature/core-update (Unidad 9)
+    path("autores/<int:pk>/", views.AuthorDetailView.as_view(), name="author-detail"),
 ]

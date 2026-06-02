@@ -18,7 +18,7 @@ from django.views.generic import (
 )
 
 from .forms import PostForm
-from .models import Post
+from .models import Author, Post
 
 
 class PostListView(ListView):
@@ -70,3 +70,19 @@ class PostDeleteView(DeleteView):
     template_name = "core/post_confirm_delete.html"
     success_url = reverse_lazy("core:post-list")
     context_object_name = "post"
+
+
+class AuthorDetailView(DetailView):
+    """Detalle de un autor con la lista de sus publicaciones.
+
+    Feature agregada en la rama feature/core-update (Unidad 9). Usa
+    prefetch_related para traer todos los posts del autor en una sola
+    query adicional, evitando el problema N+1 al iterarlos en el template.
+    """
+
+    model = Author
+    template_name = "core/author_detail.html"
+    context_object_name = "author"
+
+    def get_queryset(self):
+        return Author.objects.prefetch_related("posts")
