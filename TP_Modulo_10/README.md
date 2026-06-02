@@ -109,7 +109,7 @@ Cada unidad se entrega como Google Doc separado, todos apuntando a este repo:
 
 | Unidad | Google Doc | Nota |
 |--------|-----------|------|
-| U2 | _pendiente_ | _pendiente_ |
+| U2 | entregado | **91%** |
 | U3 | _pendiente_ | _pendiente_ |
 | U4 | _pendiente_ | _pendiente_ |
 | U5 | _pendiente_ | _pendiente_ |
