@@ -285,9 +285,25 @@ Corre 4 tests smoke que validan:
 
 ## Entrega
 
-- **Plataforma:** repositorio Git en GitHub (el corrector clona y corre).
-- **Link:** https://github.com/F-Boivin/python_coder/tree/main/TP_Modulo_9_Final
-- **Nota recibida:** _pendiente_
+- **Plataforma:** Google Doc con código + link al repo GitHub (la plataforma de Coder no permite links directos a GitHub, solo Google Docs o apps desplegadas).
+- **Repositorio:** https://github.com/F-Boivin/python_coder/tree/main/TP_Modulo_9_Final
+- **Nota recibida:** **95% — Aprobado** ⭐
+
+### Comentarios del corrector
+
+El trabajo presentado es excepcional, cubriendo todos los aspectos del Módulo 9 con un alto nivel de detalle técnico y profesionalismo. La aplicación cumple con todos los requisitos funcionales y extra de la consigna, demostrando una excelente comprensión de Django.
+
+**Puntos fuertes**
+
+- Uso avanzado de CBV y optimizaciones de consultas (`select_related`, `prefetch_related`).
+- Implementación sólida de seguridad usando mixins y control de acceso basado en el creador.
+- Documentación técnica impecable, clara y orientada a la reproducibilidad.
+
+**Para mejorar**
+
+- Integrar validaciones más complejas en el backend para los modelos, más allá de lo requerido, enriquecería aún más el sistema.
+- Explorar pruebas unitarias (tests) más avanzadas usando `pytest-django`.
+- Considerar el despliegue del proyecto en servicios como Render o Railway para practicar el flujo CI/CD.
 
 ## Notas adicionales
 
