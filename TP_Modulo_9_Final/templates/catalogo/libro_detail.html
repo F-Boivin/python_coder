@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}{{ libro.titulo }} — Biblioteca{% endblock %}
+
+{% block content %}
+    <article>
+        <h1>{{ libro.titulo }}</h1>
+        <p class="text-muted">por <a href="{% url 'autor-detail' libro.autor.pk %}">{{ libro.autor }}</a></p>
+
+        <dl class="row">
+            <dt class="col-sm-3">Fecha de publicación</dt>
+            <dd class="col-sm-9">{{ libro.fecha_publicacion }}</dd>
+
+            <dt class="col-sm-3">Disponible</dt>
+            <dd class="col-sm-9">{% if libro.disponible %}Sí ✅{% else %}No ❌{% endif %}</dd>
+
+            <dt class="col-sm-3">Creado por</dt>
+            <dd class="col-sm-9">{{ libro.creado_por|default:"—" }}</dd>
+
+            <dt class="col-sm-3">Descripción</dt>
+            <dd class="col-sm-9">{{ libro.descripcion|linebreaks|default:"Sin descripción." }}</dd>
+        </dl>
+
+        <div class="mt-4">
+            <a href="{% url 'libro-list' %}" class="btn btn-secondary">← Volver al catálogo</a>
+            {% if user == libro.creado_por %}
+                <a href="{% url 'libro-update' libro.pk %}" class="btn btn-warning">Editar</a>
+                <a href="{% url 'libro-delete' libro.pk %}" class="btn btn-danger">Borrar</a>
+            {% endif %}
+        </div>
+    </article>
+{% endblock %}

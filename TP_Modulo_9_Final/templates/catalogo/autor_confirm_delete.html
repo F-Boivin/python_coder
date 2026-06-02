@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block title %}Eliminar autor — Biblioteca{% endblock %}
+
+{% block content %}
+    <h1>¿Eliminar autor?</h1>
+    <p>Estás a punto de eliminar a <strong>{{ autor }}</strong>. Si tiene libros asociados, también se eliminarán (por la relación CASCADE). Esta acción no se puede deshacer.</p>
+
+    <form method="post">
+        {% csrf_token %}
+        <button type="submit" class="btn btn-danger">Sí, eliminar</button>
+        <a href="{% url 'autor-detail' autor.pk %}" class="btn btn-secondary">Cancelar</a>
+    </form>
+{% endblock %}

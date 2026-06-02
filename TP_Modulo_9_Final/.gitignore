@@ -1,0 +1,22 @@
+# IMPORTANTE: las migraciones SÍ se versionan en este TP, contrario al
+# .gitignore raíz del repo. Esto es porque el corrector clona el proyecto
+# y debe poder reproducir el esquema sin tocar makemigrations.
+
+# Python
+__pycache__/
+*.pyc
+
+# Entorno virtual local
+.venv/
+venv/
+
+# Base de datos local (se regenera con migrate)
+db.sqlite3
+db.sqlite3-journal
+
+# Editor
+.vscode/
+.idea/
+
+# Override del .gitignore raíz: SÍ commitear migraciones
+!**/migrations/0*.py
