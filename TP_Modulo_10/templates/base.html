@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}Workshop Blog{% endblock %}</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+        <div class="container">
+            <a class="navbar-brand" href="{% url 'core:post-list' %}">📝 Workshop Blog</a>
+            {% block nav %}
+            <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link" href="{% url 'core:post-list' %}">Inicio</a></li>
+                <li class="nav-item"><a class="nav-link" href="{% url 'core:post-create' %}">+ Nuevo post</a></li>
+                <li class="nav-item"><a class="nav-link" href="/admin/">Admin</a></li>
+            </ul>
+            {% endblock %}
+        </div>
+    </nav>
+
+    <main class="container">
+        {% block content %}{% endblock %}
+    </main>
+
+    <footer class="container mt-5 pt-4 pb-3 border-top text-muted">
+        <small>Workshop Blog — Módulo 10, Coderhouse · Felipe Boivin</small>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,29 @@
+# .gitignore para proyecto Django (Unidad 8 del Módulo 10)
+# Las migraciones SÍ se versionan para que el proyecto sea reproducible.
+
+# Python
+__pycache__/
+*.pyc
+
+# Entorno virtual
+.venv/
+venv/
+env/
+
+# Base de datos local (se regenera con migrate)
+db.sqlite3
+db.sqlite3-journal
+
+# Archivos estáticos recolectados
+staticfiles/
+
+# Configuración local / secretos
+.env
+local_settings.py
+
+# Editor
+.vscode/
+.idea/
+
+# Conservar migraciones (override del .gitignore raíz del repo)
+!**/migrations/0*.py
