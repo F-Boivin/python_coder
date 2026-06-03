@@ -111,7 +111,7 @@ Cada unidad se entrega como Google Doc separado, todos apuntando a este repo:
 |--------|-----------|------|
 | U2 | entregado | **91%** |
 | U3 | entregado | **100%** 🎯 |
-| U4 | _pendiente_ | _pendiente_ |
+| U4 | entregado | **94%** |
 | U5 | _pendiente_ | _pendiente_ |
 | U6 | _pendiente_ | _pendiente_ |
 | U7 | _pendiente_ | _pendiente_ |
