@@ -115,7 +115,9 @@ Cada unidad se entrega como Google Doc separado, todos apuntando a este repo:
 | U5 | entregado | **94%** |
 | U6 | entregado | **94%** |
 | U7 | entregado | **96%** ⭐ |
-| U9 | _pendiente_ | _pendiente_ |
+| U9 | entregado | **91%** |
+
+**Módulo 10 completo** — promedio: **94.3%** (91, 100, 94, 94, 94, 96, 91).
 
 ## Notas
 
