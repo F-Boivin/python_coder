@@ -18,9 +18,16 @@ Cada carpeta corresponde a un trabajo práctico (TP) entregado durante la cursad
 | 9 — U7 | Django: CreateView + UpdateView (CBV, autograder) | [TP_Modulo_9c](./TP_Modulo_9c) | 100% 🎯 |
 | 9 — U8 | Django: ModelAdmin avanzado (Google Doc) | [TP_Modulo_9d](./TP_Modulo_9d) | 99% ⭐ |
 | 9 Final | Biblioteca: CRUD + CBV + autenticación (repo Git reproducible) | [TP_Modulo_9_Final](./TP_Modulo_9_Final) | 95% ⭐ |
-| 10 (U2-U9) | Workshop Blog: proyecto Django incremental (7 entregables en 1 app) | [TP_Modulo_10](./TP_Modulo_10) | — |
+| 10 (U2-U9) | Workshop Blog: proyecto Django incremental (7 entregables en 1 app) | [TP_Modulo_10](./TP_Modulo_10) | prom. 94.3% + quiz 100% 🎯 |
+| 11 — Proyecto final | Blog Coder: app Django completa (repositorio) | [blog-django-coder](https://github.com/F-Boivin/blog-django-coder) | 94% |
+| 12 — Informe final | Revisión de alcance y criterios de entrega del proyecto | [blog-django-coder](https://github.com/F-Boivin/blog-django-coder) | 94% |
+| 13 — Entrega final | Presentación del proyecto (Google Slides) + deploy en producción | [blog-django-coder](https://github.com/F-Boivin/blog-django-coder) · [app en vivo](https://feboivin.pythonanywhere.com) | 97% ⭐ |
 
 > Los TPs se entregan formalmente como Google Docs en la plataforma del curso. Este repositorio funciona como respaldo de código ejecutable y portfolio.
+
+## 🎓 Curso completado
+
+Todas las entregas aprobadas (junio 2026), con promedio general ≈ 94%. El proyecto final del curso es **[Blog Coder](https://github.com/F-Boivin/blog-django-coder)**, una aplicación Django completa desplegada en producción: **https://feboivin.pythonanywhere.com**
 
 ## Cómo ejecutar cualquier TP
 
